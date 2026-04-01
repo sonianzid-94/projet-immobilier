@@ -1,0 +1,319 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+
+  <link href="./output.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body class="m-5 sm:m-10 ">
+  <!--navigateur bar-->
+  <header class="mx-12">
+
+    <nav class="flex flex-col sm:flex-row justify-between items-center ">
+      <div style="background-image: url('./image/loger.png');"
+        class="flex gap-2 bg-cover bg-center w-20 h-10 sm:w-30 p-2  sm:h-15 rounded-2xl ">
+      </div>
+
+      <div class="flex flex-col sm:flex-row justify-between items-center sm:gap-4 gap-2">
+        <a href="index.html">Accueil</a>
+        <a href="liste.html"> Maisons </a></li>
+        <a href="ajouter.html">Publier</a></li>
+
+      </div>
+      <div class="flex  gap-2">
+
+        <a href="connexion.html">connexion</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!--premiere partir-->
+    <section class="mt-10 ">
+      <div style="background-image: url('./image/fontimage.jpg');"
+        class="bg-cover bg-center w-full p-6 h-64 sm:h-96 rounded-2xl sm:p-12 text-center flex flex-col items-center">
+        <h1 class=" text-2xl font-bold text-white mb-4 sm:text-6xl">
+          Trouvez votre maison facilement<br> en Cote d'Ivoire
+        </h1>
+
+        <p class="text-sm not-first:text-indigo-50 mb-6  ">
+          recherchez des maisons disponibles par commune, prix ou par type de logement.
+        </p>
+
+
+        <form action="liste.html" method="GET"
+          class=" gap-2 max-w-xs sm:min-w-3xl flex justify-between border bg-white rounded-2xl p-1 ">
+          <input type="text" name="search" placeholder="  rechercher une commune ..."
+            class="max-w-xs sm:w-xl  text-xs outline-none p-2" />
+          <button type="submit"
+            class="  text-white bg-[#580e74] transition delay-150 duration-300 ease-in-out hover:-translate-x-1 hover:scale-100 hover:bg-indigo-500  px-2 rounded-lg text-xs sm:text-lg sm:px-6 ">recherche</button>
+          </button>
+        </form>
+
+
+      </div>
+    </section>
+
+    <!--deuxieme partie-->
+
+    <section class="text-center  bg-white rounded-2xl p-12  shadow-[0_4px_6px_-6px_gray] ">
+
+      <p class=" text-gray-400 mb-6">
+        trusted by 20,000+ companies
+      </p>
+      <div class="flex flex-col sm:flex-row justify-center gap-4 text-gray-600 font-semibold">
+        <p>Google</p>
+        <p>Booking.com</p>
+        <p>Basecamp</p>
+        <p>Microsoft</p>
+        <p>amazon</p>
+      </div>
+
+    </section>
+
+    <!--troixieme partie-->
+    <section class="p-10 mt-20 bg-[#590e7418]  rounded-2xl ">
+      <div class="p-2">
+
+        <h2 class="text-3xl font-semibold text-center text-orange-400 ">
+          Pourquoi utiliser notre plateforme ?
+        </h2>
+
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-4 py-2 slide-target opacity-0 transition-opacity duration-300 ">
+        <div class="bg-white p-6 rounded-xl shadow text-center">
+          <i class="fa-solid fa-magnifying-glass text-orange-400 text-3xl bg-orange-100 p-2 rounded-xl shadow"></i>
+          <h4 class="font-semibold mb-2 mt-2">Recherche rapide</h4>
+          <p class="text-gray-500 text-sm">
+            Filtrez par commune, prix ou par categories
+          </p>
+        </div>
+
+        <div class="bg-white p-6 rounded-xl shadow text-center">
+          <i class="fa-solid fa-house text-orange-400 text-3xl bg-orange-100 p-2 rounded-xl shadow"></i>
+          <h4 class="font-semibold mb-2 mt-2">logements fiables</h4>
+          <p class="text-gray-500 text-sm">
+            Consultez des maisons publiées par des propriétaires inscrits sur la plateforme avec des photos et
+            informations claires pour eviter les pertes de temps.
+          </p>
+        </div>
+
+        <div class="bg-white p-6 rounded-xl shadow text-center">
+          <i class="fa-solid fa-upload text-orange-400 text-3xl bg-orange-100 p-2 rounded-xl shadow"></i>
+
+          <h4 class="font-semibold mb-2 mt-2">Publiez votre maison </h4>
+          <p class="text-gray-500 text-sm">
+            Ajoutez facilement votre maison sur la plateforme pour atteindre rapidement les locataires intéressés
+          </p>
+        </div>
+
+        <div class="bg-white p-6 rounded-xl shadow text-center">
+          <i class="fa-solid fa-user text-orange-400 text-3xl bg-orange-100 p-2 rounded-xl shadow"></i>
+          <h4 class="font-semibold mb-2 mt-2">Trouvez des locataires </h4>
+          <p class="text-gray-500 text-sm">
+            Recevez des demandes de locataires et louez votre logement plus rapidement grace à une plateforme simple et
+            visible
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!--quatrieme partie-->
+
+    <section class="m-10">
+
+      <div class="mb-10 text-center">
+        <h2 class="text-3xl font-semibold text-orange-400">Maison à la une</h2>
+
+      </div>
+
+      <div id="premium" class="grid grid-cols-1 md:grid-cols-4 gap-4 ">
+
+
+      </div>
+
+
+
+
+
+
+
+
+    </section>
+    <!--cinquieme partie-->
+
+
+
+    <section class=" p-15 rounded-2xl  bg-[#590e7418] ">
+
+      <div class=" flex  justify-between mb-20 slide-target opacity-0 transition-opacity duration-300  ">
+
+        <div class=" text-left ">
+          <h2 class="text-3xl font-bold mb-6 text-orange-400 ">
+            Vous êtes locataire ?
+          </h2>
+
+          <p class="text-black mb-8 ">
+            visiter toutes les maisons disponibles<br> sur notre plateforme et trouvez rapidement une maison.
+          </p>
+
+          <button
+            class="p-2 rounded-xl   text-white bg-[#580e74] transition delay-150 duration-300 ease-in-out hover:-translate-x-1 hover:scale-100  hover:bg-purple-700      "
+            id="maison">
+            <a href="liste.html">voir maison disponible</a>
+          </button>
+        </div>
+        <div class="hidden sm:block"> <img src="./img/commune.jpg" class=" w-64 h-64 rounded-full object-cover "></div>
+
+      </div>
+
+
+      <div class=" flex justify-between slide-target opacity-0 transition-opacity duration-300 ">
+
+
+        <div class="relative  h-90 hidden sm:block">
+
+          <!-- Image 1 (au-dessus) -->
+          <img src="./img/inscription.jpg" class="w-64 h-64 rounded-full object-cover relative z-10 ">
+
+          <!-- Image 2 (en dessous, légèrement décalée) -->
+          <img src="./img/bien.jpg" class="w-50 h-50 rounded-full object-cover absolute top-50 left-40 z-0 ">
+        </div>
+
+
+
+        <div class="text-right ">
+          <h2 class="text-3xl font-bold mb-6 text-orange-400">
+            Vous êtes propriétaire ?
+          </h2>
+
+          <p class="text-black mb-8 ">
+            Publiez votre maison et trouvez rapidement des locataires.
+          </p>
+
+          <button
+            class="p-2 rounded-xl   text-white bg-[#580e74] transition delay-150 duration-300 ease-in-out hover:-translate-x-1 hover:scale-100  hover:bg-purple-700"
+            id="publier">
+            <a href="ajouter.html">Publier une maison</a>
+          </button>
+        </div>
+
+
+      </div>
+
+    </section>
+  </main>
+
+
+
+  <!--footer -->
+
+  <footer class="mt-20 p-1 sm:p-3 ">
+
+
+    <div class=" grid grid-cols-1 sm:grid-cols-2  ">
+
+
+      <div class="sm:flex justify-items-center gap-4 p-5 bg-white border-t sm:border-r border-black  sm:p-10">
+
+        <div class=" gap-2 bg-[url('/image/loger.png')] bg-cover bg-center w-20 h-10 sm:w-30 p-2 sm:h-15 rounded-2xl s">
+        </div>
+
+        <p class="text-gray-500 mt-2 text-center">
+          La plateforme qui facilite la recherche de logement en Côte d’Ivoire.
+          Trouvez ou publiez une maison rapidement et simplement..
+        </p>
+
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-3  bg-white p-5 sm:p-10 sm:border-t  sm:border-l sm:border-black  ">
+
+        <div class="mb-4 text-center">
+
+          <h3 class="font-semibold text-lg mb-2  text-[#580e74]">
+            Locataires
+          </h3>
+
+          <ul class="space-y-2 text-gray-600">
+
+            <li>
+              <a href="#" class="hover:text-purple-600">
+                Rechercher une maison
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="hover:text-purple-600">
+                Maisons disponibles
+              </a>
+            </li>
+
+
+
+          </ul>
+
+        </div>
+
+
+
+
+
+
+        <div class="mb-4 text-center">
+
+          <h3 class="font-semibold text-lg mb-2 text-[#580e74]">
+            Propriétaires
+          </h3>
+
+          <ul class="space-y-2 text-gray-600">
+            <li>
+              <a href="#" class="hover:text-purple-600">
+                Créer un compte
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="hover:text-purple-600">
+                Publier une maison
+              </a>
+            </li>
+
+
+
+          </ul>
+
+        </div>
+
+
+        <div class="text-center">
+
+          <h4 class="font-semibold mb-2 text-[#580e74]">Suivez-nous</h4>
+
+          <div class="text-xl ">
+
+            <a href="#"><i class="fa-brands fa-facebook "></i></a>
+
+            <a href="#"><i class="fa-brands fa-twitter "></i></a>
+
+            <a href="#"><i class="fa-brands fa-instagram "></i></a>
+          </div>
+
+        </div>
+
+
+      </div>
+
+  </footer>
+  <script src="animation.js"></script>
+  <script src="premium.js"></script>
+  <script src="script.js"></script>
+
+
+
+</html>

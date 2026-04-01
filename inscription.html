@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inscription</title>
+  <link href="./output.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+  <body>
+    <header class="mx-12">
+
+      <nav class="flex flex-col sm:flex-row justify-between items-center ">
+        <div style="background-image: url('./image/loger.png');"
+          class="flex gap-2 bg-cover bg-center w-20 h-10 sm:w-30 p-2  sm:h-15 rounded-2xl ">
+        </div>
+
+        <div class="flex flex-col sm:flex-row justify-between items-center sm:gap-4 gap-2">
+          <a href="index.html">Accueil</a>
+          <a href="liste.html"> Maisons </a></li>
+          <a href="ajouter.html">Publier</a></li>
+
+        </div>
+        <div class="flex  gap-2">
+
+          <a href="connexion.html">connexion</a>
+        </div>
+      </nav>
+    </header>
+
+
+
+    <section class="bg-gray-100 flex items-center justify-center min-h-screen mt-4">
+
+      <!-- Container -->
+      <div
+        class=" mt-10 mb-10 w-full max-w-4xl bg-white rounded-3xl shadow-2xl overflow-hidden grid grid-cols-1 md:grid-cols-2">
+
+        <!-- LEFT (Design / Branding) -->
+        <div
+          class="bg-linear-to-br from-purple-800 via-purple-600 to-orange-400 text-white p-10 flex flex-col justify-center ">
+
+          <h1 class="text-4xl font-bold mb-4">Logesûr</h1>
+
+          <p class="text-lg opacity-90 mb-6">
+            Trouvez et gérez vos biens immobiliers en toute simplicité.
+          </p>
+
+          <div class="bg-white/10 p-4 rounded-xl">
+            <p class="text-sm">
+              ✔️ Recherche rapide<br>
+              ✔️ Ajout de maison simplifié
+            </p>
+          </div>
+
+        </div>
+
+        <!-- Formulaire -->
+        <div class="p-10">
+
+          <h2 class="text-2xl font-bold text-gray-800 mb-6">
+            Inscription proprietaire
+          </h2>
+
+          <form class="space-y-5">
+
+            <div>
+              <label for="nomComplet">Nom Complet:</label><br>
+              <input type=text id="nom"
+                class="w-full mt-1 px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-purple-500 outline-none"
+                placeholder="votre nom et prenom" required><br>
+            </div>
+            <div>
+              <label class="text-sm text-gray-600">Email</label>
+              <input type="email"
+                class="w-full mt-1 px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-purple-500 outline-none"
+                placeholder="exemple@email.com">
+            </div>
+
+
+            <div>
+              <label for="number">Telephone:</label><br>
+              <input type="tel" id="tel"
+                class="w-full mt-1 px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-purple-500 outline-none"
+                placeholder="telephone" required><br>
+
+            </div>
+
+
+            <div>
+              <label class="text-sm text-gray-600">Mot de passe</label>
+              <input type="password"
+                class="w-full mt-1 px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-purple-500 outline-none"
+                placeholder="****">
+            </div>
+
+
+
+            <div class="flex justify-center items-center text-sm">
+              <label class="flex items-center gap-2">
+                <input type="checkbox" class="accent-purple-600">
+                Se souvenir de moi
+              </label>
+
+
+            </div>
+
+            <!-- Button -->
+            <button
+              class="w-full bg-linear-to-r from-purple-700 to-orange-400 text-white py-3 rounded-xl font-semibold hover:opacity-90 transition">
+              <a href="ajouter.html">S'inscrire</a>
+            </button>
+            <p class="p-2 text-center"><a href="connexion.html" class="hover:text-purple-600">se connecter</a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </section>
+
+
+  </body>
+
+</html>

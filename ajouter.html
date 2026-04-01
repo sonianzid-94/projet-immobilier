@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>logement</title>
+
+  <link href="./output.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+  <header class="mx-12">
+
+    <nav class="flex flex-col sm:flex-row justify-between items-center ">
+      <div style="background-image: url('./image/loger.png');"
+        class="flex gap-2 bg-cover bg-center w-20 h-10 sm:w-30 p-2  sm:h-15 rounded-2xl ">
+      </div>
+
+      <div class="flex flex-col sm:flex-row justify-between items-center sm:gap-4 gap-2">
+        <a href="index.html">Accueil</a>
+        <a href="liste.html"> Maisons </a></li>
+        <a href="ajouter.html">Publier</a></li>
+
+      </div>
+      <div class="flex  gap-2">
+
+        <a href="connexion.html">connexion</a>
+      </div>
+    </nav>
+  </header>
+
+
+  <section class="bg-gray-100 flex items-center justify-center min-h-screen mt-4  ">
+
+
+    <!-- Container -->
+    <div
+      class="bg-linear-to-br from-purple-800 via-purple-600 to-orange-400  p-10 flex flex-col justify-center mt-10 mb-10 rounded-2xl">
+      <h2 class="text-3xl font-bold text-white mb-6 text-center">
+
+        Enregister votre Maison
+      </h2>
+
+      <form class=" space-y-5">
+        <div class=" sm:grid grid-cols-2 gap-6    ">
+
+          <div>
+            <label for="text" class="text-white">commune:</label><br>
+            <input type=text id="nom"
+              class="w-full mt-1 p-1 text-black border border-gray-300 rounded-xl focus:ring-2 focus:ring-purple-500 outline-none bg-[#FFF7ED]"
+              placeholder=" commune" required><br>
+          </div>
+          <div>
+            <label for="text" class="text-white">Prix</label>
+            <input type="text"
+              class="w-full mt-1 p-1  text-black border border-gray-300 rounded-xl focus:ring-2 focus:ring-purple-500 outline-none  bg-[#FFF7ED]"
+              placeholder="prix">
+          </div>
+
+
+          <div>
+            <label for="text" class="text-white">nombre de pièces:</label><br>
+            <input type="text"
+              class="w-full mt-1 p-1 text-black border border-gray-300 rounded-xl focus:ring-2 focus:ring-purple-500 outline-none  bg-[#FFF7ED]"
+              placeholder="pièce" required><br>
+
+          </div>
+
+          <div>
+            <label for="image" class="text-white">image:</label><br>
+            <input type="file" accept="image/*"
+              class="w-full mt-1 p-1 text-gray-500 border border-gray-300 rounded-xl focus:ring-2 focus:ring-purple-500 outline-none  bg-[#FFF7ED]"
+              placeholder="telephone" required><br>
+
+          </div>
+
+          <div>
+
+            <label for="description" class="text-white">description</label><br>
+            <textarea placeholder="description"
+              class="w-full mt-1 px-1 border text-black text-center border-gray-300 rounded-xl focus:ring-2 focus:ring-purple-500 outline-none  bg-[#FFF7ED]">
+
+                </textarea><br>
+
+
+          </div>
+
+          <div>
+            <label for="pieceIdentité" class="text-white">N°Cni:</label><br>
+            <input type="text" id="pieceIdentité"
+              class="w-full mt-1 p-1 text-black border  border-gray-300 rounded-xl focus:ring-2 focus:ring-purple-500 outline-none  bg-[#FFF7ED]"
+              placeholder="n°cni" required><br>
+          </div>
+          <div>
+            <label for="titreFoncier" class="text-white">TitreFoncier:</label><br>
+            <input type="text" id="titreFoncier "
+              class="w-full mt-1 p-1 text-black border border-gray-300 rounded-xl focus:ring-2 focus:ring-purple-500 outline-none  bg-[#FFF7ED]"
+              placeholder="titrefoncier" required><br>
+          </div>
+          <div>
+            <label for="photo" class="text-white"> photo Identité:</label><br>
+            <input type="file" id="photoIdentite" accept="image/*"
+              class="w-full mt-1 p-1 text-gray-500 border border-gray-300 rounded-xl focus:ring-2 focus:ring-purple-500 outline-none  bg-[#FFF7ED]"
+              required>
+          </div>
+
+
+
+          <!-- Button -->
+
+        </div>
+        <div class="flex justify-center items-center ">
+          <button
+            class=" w-50 bg-linear-to-r from-purple-700 to-orange-400 py-3 rounded-xl font-semibold hover:opacity-90 transition text-white text-center  ">
+            S'inscrire
+          </button>
+        </div>
+
+      </form>
+
+
+  </section>
+
+
+
+  <!--footer -->
+
+  <!--footer -->
+
+  <footer class="mt-20 p-1 sm:p-3 ">
+
+
+    <div class=" grid grid-cols-1 sm:grid-cols-2  ">
+
+
+      <div class="sm:flex justify-items-center gap-4 p-5 bg-white border-t sm:border-r border-black  sm:p-10">
+
+        <div class=" gap-2 bg-[url('/image/loger.png')] bg-cover bg-center w-20 h-10 sm:w-30 p-2 sm:h-15 rounded-2xl s">
+        </div>
+
+        <p class="text-gray-500 mt-2 text-center">
+          La plateforme qui facilite la recherche de logement en Côte d’Ivoire.
+          Trouvez ou publiez une maison rapidement et simplement..
+        </p>
+
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-3  bg-white p-5 sm:p-10 sm:border-t  sm:border-l sm:border-black  ">
+
+        <div class="mb-4 text-center">
+
+          <h3 class="font-semibold text-lg mb-2  text-[#580e74]">
+            Locataires
+          </h3>
+
+          <ul class="space-y-2 text-gray-600">
+
+            <li>
+              <a href="#" class="hover:text-purple-600">
+                Rechercher une maison
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="hover:text-purple-600">
+                Maisons disponibles
+              </a>
+            </li>
+
+
+
+          </ul>
+
+        </div>
+
+
+
+
+
+
+        <div class="mb-4 text-center">
+
+          <h3 class="font-semibold text-lg mb-2 text-[#580e74]">
+            Propriétaires
+          </h3>
+
+          <ul class="space-y-2 text-gray-600">
+            <li>
+              <a href="#" class="hover:text-purple-600">
+                Créer un compte
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="hover:text-purple-600">
+                Publier une maison
+              </a>
+            </li>
+
+
+
+          </ul>
+
+        </div>
+
+
+        <div class="text-center">
+
+          <h4 class="font-semibold mb-2 text-[#580e74]">Suivez-nous</h4>
+
+          <div class="text-xl ">
+
+            <a href="#"><i class="fa-brands fa-facebook "></i></a>
+
+            <a href="#"><i class="fa-brands fa-twitter "></i></a>
+
+            <a href="#"><i class="fa-brands fa-instagram "></i></a>
+          </div>
+
+        </div>
+
+
+      </div>
+
+  </footer>
+</body>
+
+</html>
