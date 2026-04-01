@@ -9,6 +9,9 @@ const maisons = [
     douches: 1,
     surface: 80,
     type: "Appartement",
+     garage: "avec garage",
+    localisation: "Abidjan,Cote d'ivoire",
+    description: " appartement situé à Cocody, idéale pour une famille.Elle dispose d’un grand salon lumineux, d’une cuisine équipée,et d’un espace extérieur agréable.",
     image: "https://images.unsplash.com/photo-1560185127-6ed189bf02f4",
 
   },
@@ -21,6 +24,9 @@ const maisons = [
     douches: 3,
     surface: 200,
     type: "Villa",
+     garage: "avec garage",
+    localisation: "Abidjan,Cote d'ivoire",
+    description: " Magnifique villa moderne située à marcory, idéale pour une famille.Elle dispose d’un grand salon lumineux, d’une cuisine équipée,et d’un espace extérieur agréable.",
     image: "https://images.unsplash.com/photo-1494526585095-c41746248156",
     galerie: [
       "https://images.unsplash.com/photo-1507089947368-19c1da9775ae",
@@ -38,6 +44,9 @@ const maisons = [
     douches: 1,
     surface: 40,
     type: "Studio",
+     garage: "sans garage",
+    localisation: "Abidjan,Cote d'ivoire",
+    description: " Magnifique studio americain située à yopougon, idéale pour un celibataire.Elle dispose d’une cuisine .",
     image: "https://images.unsplash.com/photo-1560185127-6ed189bf02f4",
     galerie: [
       "https://images.unsplash.com/photo-1507089947368-19c1da9775ae",
@@ -54,6 +63,9 @@ const maisons = [
     douches: 1,
     surface: 80,
     type: "Appartement",
+     garage: "sans garage",
+    localisation: "Abidjan,Cote d'ivoire",
+    description: " Magnifique appartement située à Cocody, idéale pour une famille.Elle dispose d’un grand salon lumineux, d’une cuisine équipée,et d’un espace extérieur agréable.",
     image: "https://images.unsplash.com/photo-1560185127-6ed189bf02f4",
     galerie: [
       "https://images.unsplash.com/photo-1507089947368-19c1da9775ae",
@@ -69,7 +81,10 @@ const maisons = [
     chambres: 4,
     douches: 3,
     surface: 200,
-    type: "Villa",
+    type: "Villa", 
+     garage: "avec garage",
+    localisation: "Abidjan,Cote d'ivoire",
+    description: " Magnifique villa moderne située à plateau, idéale pour une famille.Elle dispose d’un grand salon lumineux, d’une cuisine équipée,et d’un espace extérieur agréable.",
     image: "https://images.unsplash.com/photo-1494526585095-c41746248156",
     galerie: [
       "https://images.unsplash.com/photo-1507089947368-19c1da9775ae",
@@ -86,6 +101,9 @@ const maisons = [
     douches: 1,
     surface: 40,
     type: "Studio",
+     garage: "sans garage",
+    localisation: "Abidjan,Cote d'ivoire",
+    description: " Magnifique studio americain située à adjame, idéale pour un celibataire.Elle dispose d’une cuisine .",
     image: "https://images.unsplash.com/photo-1507089947368-19c1da9775ae",
     galerie: [
       "https://images.unsplash.com/photo-1507089947368-19c1da9775ae",
@@ -102,9 +120,9 @@ const maisons = [
     douches: 2,
     surface: 200,
     type: "Villa",
-    garage: "avec garage",
+    garage: "sans garage",
     localisation: "Abidjan,Cote d'ivoire",
-    description: " Magnifique villa moderne située à Cocody, idéale pour une famille.Elle dispose d’un grand salon lumineux, d’une cuisine équipée,et d’un espace extérieur agréable.",
+    description: " Magnifique villa moderne située à abobo, idéale pour une famille.Elle dispose d’un grand salon lumineux, d’une cuisine équipée,et d’un espace extérieur agréable.",
     image: "https://images.pexels.com/photos/5587932/pexels-photo-5587932.jpeg ",
     galerie: [
       "https://images.unsplash.com/photo-1507089947368-19c1da9775ae",
